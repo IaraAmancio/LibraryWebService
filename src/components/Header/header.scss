@@ -1,0 +1,21 @@
+
+$primary-color:  rgb(171, 171, 255);
+$font-stack: 'Verdana';
+
+header{
+    background: $primary-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+
+    h2{
+        font-family: $font-stack;
+        color: white;
+    }
+
+    img{
+        width: 100px;
+    }
+}
